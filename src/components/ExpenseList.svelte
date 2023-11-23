@@ -13,7 +13,7 @@
     <div class="card-container">
         <ExpenseRow {...expenseHeader}/>
         {#each expenses as expense}
-            <ExpenseRow  {...expense}/>
+            <ExpenseRow on:delete_expense {...expense}/>
         {/each}
     </div>
 {/if}
