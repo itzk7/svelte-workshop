@@ -10,6 +10,8 @@ npm run dev -- --open
 ```
 
 ## Activity
-Let's add amount field input and add the validation ```1<=amount<=999999``` and make sure the amount is getting printed in the console
+Let's show added expense in the list,
 
-
+Changes:
+1. Add ExpenseList componet in ```src/routes/[...expense]/+page.svelte```
+2. Pass expenses properties to the ExpenseList component ```src/components/ExpenseList.svelte```

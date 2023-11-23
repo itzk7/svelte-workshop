@@ -11,6 +11,7 @@ function addExpense(e) {
 
 <div class="container">
     <ExpenseForm on:add_expense={addExpense} />
+    <!-- TODO: Add ExpenseList component here and set $expenses as a property-->
 </div>
 
 <style>

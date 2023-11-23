@@ -25,7 +25,8 @@
 
     <div class="footer">
         <!-- svelte-ignore a11y-distracting-elements -->
-        <marquee><h2>Activity 1: Add amount input field and validation {'1<=amount<=2000'}</h2></marquee>
+        <marquee><h2>Activity 2: Let's create expense list
+        </h2></marquee>
     </div>
 </div>
 <style>
