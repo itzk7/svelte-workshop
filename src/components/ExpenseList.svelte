@@ -12,7 +12,7 @@
     <h3>Expenses</h3>
     <div class="card-container">
         <ExpenseRow {...expenseHeader}/>
-        <!-- TODO: Iterate each expenses and call ExpenseRow component -->
+        <!-- TODO: Iterate each expenses and call ExpenseRow component here -->
     </div>
 {/if}
 
