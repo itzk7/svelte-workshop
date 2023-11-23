@@ -1,15 +1,12 @@
 # Expense Tracker
-
-## Developing
-
-Install pkgs, and start the server and open the app in a new browser tab:
+Open terminal and run
 
 ```bash
-npm install
+npm i
 npm run dev -- --open
 ```
 
 ## Activity
-Let's add amount field input and add the validation ```1<=amount<=999999``` and make sure the amount is getting printed in the console
+Let's add an amount field input and implement validation so that the input value must fall within the range of 1 to 999,999. Ensure that the input value is printed to the console.
 
 
