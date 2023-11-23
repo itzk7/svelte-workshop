@@ -1,17 +1,22 @@
 <script>
     import ExpenseForm from "../../components/ExpenseForm.svelte";
     import { expenses } from "../../stores/expenses.js";
+    import ExpenseList from "../../components/ExpenseList.svelte";
 
-function addExpense(e) {
-    expenses.add(e.detail)
-    console.log($expenses)
-}
+
+    // TODO: Add deleteExpense similar to addExpense
+    // and set it for delete_expense event
+
+    function addExpense(e) {
+        expenses.add(e.detail)
+        console.log($expenses)
+    }
 
 </script>
 
 <div class="container">
     <ExpenseForm on:add_expense={addExpense} />
-    <!-- TODO: Add ExpenseList component here and set $expenses as a property-->
+    <ExpenseList expenses={$expenses} />
 </div>
 
 <style>

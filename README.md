@@ -10,8 +10,8 @@ npm run dev -- --open
 ```
 
 ## Activity
-Let's show added expense in the list,
+Let's add functionality to delete expense 
 
 Changes:
-1. Add ExpenseList componet in ```src/routes/[...expense]/+page.svelte```
-2. Pass expenses properties to the ExpenseList component ```src/components/ExpenseList.svelte```
+1. Create event named ```delete_expense```, dispatch expenseID on clicking delete icon
+2. Add delete handler in ```src/routes/[...expense]/+page.svelte``` and set the handler for delete_expense event

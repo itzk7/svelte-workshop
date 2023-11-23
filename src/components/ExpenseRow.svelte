@@ -4,6 +4,8 @@
     export let expenseDate;
     export let amount = 0;
     export let expenseID;
+
+    // TODO: Create event dispatcher with event delete_expense and to send expenseID
 </script>
 
 
@@ -21,7 +23,6 @@
         <Delete />
     </button>    
 </div>
-
 
 <style>
     .card-content button {

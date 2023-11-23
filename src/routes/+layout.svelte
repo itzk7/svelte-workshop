@@ -25,7 +25,7 @@
 
     <div class="footer">
         <!-- svelte-ignore a11y-distracting-elements -->
-        <marquee><h2>Activity 2: Let's create expense list
+        <marquee><h2>Activity 3: Let's add delete handler
         </h2></marquee>
     </div>
 </div>
