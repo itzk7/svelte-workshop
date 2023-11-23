@@ -7,7 +7,7 @@
 
     // TODO: use $expenses to generate categories as label and its total amount as sum
     const labels = ["abc", "def", "ghi"]
-    const values = [10, 20, 30]
+    const values = [10, 20, 40]
     const totalExpense = 9999
 
     let report;

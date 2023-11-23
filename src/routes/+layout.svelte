@@ -25,7 +25,7 @@
 
     <div class="footer">
         <!-- svelte-ignore a11y-distracting-elements -->
-        <marquee><h2>Activity 3: Let's add delete handler
+        <marquee><h2>Let's calculate the total amount, the categories and their totals, and fix the values and labels in the chart.
         </h2></marquee>
     </div>
 </div>
