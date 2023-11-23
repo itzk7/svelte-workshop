@@ -10,8 +10,7 @@ npm run dev -- --open
 ```
 
 ## Activity
-Let's add functionality to delete expense 
+Let's set total amount, values and labels in the chart
 
 Changes:
-1. Create event named ```delete_expense```, dispatch expenseID on clicking delete icon
-2. Add delete handler in ```src/routes/[...expense]/+page.svelte``` and set the handler for delete_expense event
+Calculate correct totalExpenses, categories and its aggregated amount using $expenses

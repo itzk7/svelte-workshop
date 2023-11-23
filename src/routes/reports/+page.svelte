@@ -1,3 +1,5 @@
-<h1>
-  WIP!
-</h1>
+<script>
+  import ReportTable from "../../components/ReportTable.svelte";
+</script>
+
+<ReportTable />
