@@ -3,12 +3,22 @@
     import Chart from 'chart.js/auto';
     import { onMount } from 'svelte';
 
-    console.log('From report component', $expenses)
+    const categoryAmount = $expenses.reduce((acc, item) => {
+        const category = item["category"];
+        const amount = item["amount"];
 
-    // TODO: use $expenses to generate categories as label and its total amount as sum
-    const labels = ["abc", "def", "ghi"]
-    const values = [10, 20, 40]
-    const totalExpense = 9999
+        if (!acc[category]) {
+            acc[category] = 0;
+        }
+
+        acc[category] += amount;
+
+        return acc;
+    }, {});
+
+    const labels = Object.keys(categoryAmount)
+    const values = Object.values(categoryAmount)
+    const totalExpense = $expenses.reduce((total, item)=> total + item["amount"] ,0)
 
     let report;
     const data = {
