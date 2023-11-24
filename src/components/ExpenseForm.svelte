@@ -9,7 +9,7 @@
     threeMonthsAgo.setMonth(threeMonthsAgo.getMonth() - 3);
 
     const dispatcher = createEventDispatcher()
-    const { form, errors, state, handleChange, handleSubmit, handleReset } = createForm({
+    const { form, errors, handleSubmit, handleReset } = createForm({
       initialValues: {
         category: "",
         expenseDate: "",
@@ -39,7 +39,6 @@
     <select
       id="category"
       name="category"
-      on:change={handleChange}
       bind:value={$form.category}>
       {#each categories as category}
         <option value={category}>{category}</option>
@@ -54,8 +53,6 @@
       id="expenseDate"
       name="expenseDate"
       type="date"
-      on:change={handleChange}
-      on:blur={handleChange}
       bind:value={$form.expenseDate}
     />
     {#if $errors.expenseDate}
@@ -67,8 +64,6 @@
       id="amount"
       name="amount"
       type="number"
-      on:change={handleChange}
-      on:blur={handleChange}
       bind:value={$form.amount}
     />
     {#if $errors.amount}
