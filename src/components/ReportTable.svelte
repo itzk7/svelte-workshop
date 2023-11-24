@@ -64,7 +64,7 @@
 
 <div class="report-container">
     {#if totalExpense}
-    <canvas bind:this={report} id="myChart"></canvas>
+    <canvas bind:this={report}></canvas>
     {:else}
     <h3>Nothing here, Add expense to view report</h3>
     {/if}
