@@ -39,7 +39,6 @@
     <select
       id="category"
       name="category"
-      
       bind:value={$form.category}>
       {#each categories as category}
         <option value={category}>{category}</option>
