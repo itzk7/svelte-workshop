@@ -64,9 +64,11 @@
         }
     };
     onMount(()=> {
-        const ctx = report.getContext('2d');
-        // // Initialize chart using config set
-        var myChart = new Chart(ctx, config);
+        if (report) {
+            const ctx = report.getContext('2d');
+            // // Initialize chart using config set
+            var myChart = new Chart(ctx, config);
+        }
     })
 	</script>
 
