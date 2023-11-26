@@ -1,13 +1,9 @@
-# Expense Tracker
-
-## Developing
-
-Install pkgs, and start the server and open the app in a new browser tab:
-
+To run the app
 ```bash
-npm install
 npm run dev -- --open
 ```
+Now you should be able to see, the list of expenses
+
 
 ## Activity
 Let's add functionality to delete expense 
