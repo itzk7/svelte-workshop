@@ -1,17 +1,18 @@
-# About the app
-It's a simple expense tracker application
-
-## To Run
-```bash
-npm i
-npm run dev -- --open
-```
-
 ## Prerequisite learning
 Try to finish the Part 1 and Part 3 of the learning source https://learn.svelte.dev/tutorial/welcome-to-svelte
 
 I have created one simple app using svelte, playaround with it to learn about store, event dispatching and property bindings
 https://svelte.dev/repl/b42abb120dcc482e8c34fbcb14a5cad8?version=4.2.7
+
+# Svelte workshop
+We will learn svelte by building one expense app, To see we are going to build 
+
+#### Run
+```bash
+npm i
+npm run dev -- --open
+```
+The expense app is now accessible in the browser. The complete solution is available in the main branch code. To complete this workshop, follow the workshop structure given below
 
 ## Workshop structure
 **NOTE: The main file contains all the code necessary to complete the application. Please refer to the main file for the solution**
